@@ -6,6 +6,10 @@ Neste projeto, você terá a oportunidade de criar um Sistema Bancário em Pytho
  - Python
 
 ## Regras de Negócio - versão 1
- - O sistema deverá ser capaz de realizar um depósito
- - O sistema deverá ser capaz de realizar saques, subtraindo o valor existente na conta
- - O sistema deverá ser capaz de mostrar o extrato da conta, mostrando o saldo existente
+ - O sistema deve permitir depósitos de valores positivos para a conta bancária.
+ - Haverá apenas 1 usuário utilizando o programa, não será preciso identificar agência e conta
+ - O sistema deve permitir realizar 3 saques diários com limite máximo de R$500,00 por saque
+ - Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo.
+ - Todos as operações devem ser armazenados em uma variável e exibidos na operação de extrato.
+ - A operação de extrato deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve ser exibido o saldo atual da conta.
+ - Os valores devem ser exibidos no formato "R$ xxx.xx", Exemplo: 1500.45 = R$ 1500.45
